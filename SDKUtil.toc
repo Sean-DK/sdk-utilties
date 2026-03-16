@@ -44,6 +44,11 @@ Modules\Crier\Dungeons\PitOfSaron.lua
 Modules\Crier\Dungeons\SeatOfTheTriumvirate.lua
 Modules\Crier\Dungeons\Skyreach.lua
 
+# Raid Modules
+Modules\Crier\Raids\MarchOnQuelDanas.lua
+Modules\Crier\Raids\TheDreamrift.lua
+Modules\Crier\Raids\TheVoidspire.lua
+
 # Flourish
 Modules\Flourish\Spells.lua
 Modules\Flourish\Flourish.lua
