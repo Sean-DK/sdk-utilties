@@ -1,0 +1,52 @@
+## Interface: 120001
+## Title: |cffc41e3aSDK|cffffffffUtilities|r
+## Version: v0.3.0
+## Notes: Set custom audio crier for boss timers
+## Author: SeanDK
+## Category-enUS: |cffc41e3aSeanDK|cffffffff Development|r
+## SavedVariables: SDKUtilDB
+## Dependencies: SDKSharedMedia
+
+# Library files
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.xml
+#@end-no-lib-strip@
+
+Core\Prototype.lua
+Core\Defaults.lua
+SDKUtil.lua
+Core\Options.lua
+Modules\Crier\SDKCrier.lua
+Core\ZoneTracking.lua
+
+# Dungeon Modules
+# Midnight
+Modules\Crier\Dungeons\DenOfNalorakk.lua
+Modules\Crier\Dungeons\MagistersTerrace.lua
+Modules\Crier\Dungeons\MaisaraCaverns.lua
+Modules\Crier\Dungeons\MurderRow.lua
+Modules\Crier\Dungeons\NexusPointXenas.lua
+Modules\Crier\Dungeons\TheBlindingVale.lua
+Modules\Crier\Dungeons\VoidscarArena.lua
+Modules\Crier\Dungeons\WindrunnerSpire.lua
+# Seasonal
+Modules\Crier\Dungeons\AlgetharAcademy.lua
+Modules\Crier\Dungeons\PitOfSaron.lua
+Modules\Crier\Dungeons\SeatOfTheTriumvirate.lua
+Modules\Crier\Dungeons\Skyreach.lua
+
+# Flourish
+Modules\Flourish\Spells.lua
+Modules\Flourish\Flourish.lua
+
+Modules\Crier\TextAlert.lua
+Modules\Crier\PrivateAura.lua
